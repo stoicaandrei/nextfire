@@ -1,3 +1,6 @@
+import { getAuth } from 'firebase/auth';
+import { getFirestore } from 'firebase/firestore';
+import { getStorage } from 'firebase/storage';
 import { ReactNode } from 'react';
 import {
   FirebaseAppProvider,
@@ -6,9 +9,6 @@ import {
   StorageProvider,
   useFirebaseApp,
 } from 'reactfire';
-import { getFirestore } from 'firebase/firestore';
-import { getAuth } from 'firebase/auth';
-import { getStorage } from 'firebase/storage';
 
 type Props = {
   children: ReactNode;

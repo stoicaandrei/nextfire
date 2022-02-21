@@ -1,6 +1,5 @@
 import {
   User as AuthUser,
-  getAuth,
   GoogleAuthProvider,
   signInWithPopup,
   signOut,
